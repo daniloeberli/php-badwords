@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHP badwords</title>
 </head>
 <body>
-    <h1>prova funzionamento</h1>
-    <form action="index2.php" method="get">
-        <input type="text" name="" id="">
-        <textarea rows="5" cols="33"></textarea>
-        <input type="submit" value="Submit">
+    <form action="index2.php" method="GET">
+        <label for="paragraph">Scrivi il tuo testo</label>
+        <textarea id="paragraph" name="paragraph" rows="5" cols="33"></textarea>
+
+        <label for="word">Parola da censurare</label>
+        <input type="text" name="word" id="word">
+        
+    
+        <button type="submit">Invia</button>
+        <button type="reset">Reset</button>
     </form>
 </body>
 </html>
