@@ -19,7 +19,7 @@
 
     <?php
     
-    $new_par = str_replace($word,"***",$par)
+    $new_par = str_ireplace($word,"***",$par)
     
     ?>
 
